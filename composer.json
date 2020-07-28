@@ -1,0 +1,13 @@
+{
+    "name": "realfavicongenerator/favicon-by-realfavicongenerator",
+    "description": "Create and install your favicon for all platforms: PC/Mac of course, but also iPhone/iPad, Android devices, Windows 8 tablets, etc.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Philippe Bernard",
+            "email": "contact@realfavicongenerator.net"
+        }
+    ],
+    "require": {}
+}
