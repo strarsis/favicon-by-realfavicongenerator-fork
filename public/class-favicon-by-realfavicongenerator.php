@@ -11,6 +11,7 @@ class Favicon_By_RealFaviconGenerator extends Favicon_By_RealFaviconGenerator_Co
 	private function __construct() {
 		add_action( 'wp_head', array( $this, 'add_favicon_markups' ) );
 		add_action( 'login_head', array( $this, 'add_favicon_markups' ) );
+        add_filter( 'get_site_icon_url', array( $this, 'set_site_icon_url' ), 10, 2 );
 
 		// Deactivate Genesis default favicon
 		add_filter( 'genesis_pre_load_favicon', array( $this, 'return_empty_favicon_for_genesis' ) );

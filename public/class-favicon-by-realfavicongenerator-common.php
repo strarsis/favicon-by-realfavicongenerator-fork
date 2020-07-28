@@ -239,6 +239,66 @@ class Favicon_By_RealFaviconGenerator_Common {
 		}
 	}
 
+    public function set_site_icon_url($url, $size) {
+
+        $doc = new DOMDocument();
+        $doc->loadHTML($html);
+        $xpath = new DOMXpath($doc);
+
+
+        if($size === 32) {
+            // classic favicon (32) (from shortcut icon <link> element)
+
+            $icon_elements = $xpath->query('//link[@rel="shortcut icon"]');
+            if($icon_elements->length > 0) {
+                $icon_element = $icon_elements->item(0);
+                $favicon_url  = $icon_element->getAttribute('href');
+                if(!empty($favicon_url)) $url = $favicon_url;
+            }
+
+        } else {
+            // other icon sizes
+
+            $icon_size_prefix = $size . 'x';
+
+            // smaller sized icons (currently 16;32;180) (from <link> elements)
+            $link_elements = $xpath->query('//link[starts-with(@sizes, "' . $icon_size_prefix . '")]');
+            if($link_elements->length > 0) {
+                $link_element = $link_elements->item(0);
+                $link_url     = $link_element->getAttribute('href');
+                if(!empty($link_url)) $url = $link_url;
+            }
+
+            // larger sized icons (currently 192;512) (from the manifest file)
+            $manifest_elements = $xpath->query('//link[@rel="manifest"]');
+            if($manifest_elements->length > 0) {
+                $manifest_element = $manifest_elements->item(0);
+
+                $manifest_url = $manifest_element->getAttribute('href');
+                $wp_basedir   = get_home_path();
+                $manifest_path    = $wp_basedir . DIRECTORY_SEPARATOR . $manifest_url;
+                $manifest_content = @file_get_contents($manifest_path);
+                if($manifest_content !== false) {
+                    $manifest       = json_decode($manifest_content, true);
+                    $manifest_icons = $manifest['icons'];
+
+                    foreach($manifest_icons as $manifest_icon) {
+                        $icon_sizes = $manifest_icon['sizes'];
+                        if (strncmp($icon_sizes, $icon_size_prefix, strlen($icon_size_prefix)) === 0) {
+                            // sizes attr value starts with matching prefix?
+                            $icon_src = $manifest_icon['src'];
+                            if(!empty($icon_src)) $url = $icon_src;
+                            break;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        return $url;
+    }
+
 	public function remove_genesis_favicon() {
 		// See http://dreamwhisperdesigns.com/genesis-tutorials/change-default-genesis-favicon/
 		// However, I didn't find the right hook to trigger this code in time to deactivate Genesis hooks.
