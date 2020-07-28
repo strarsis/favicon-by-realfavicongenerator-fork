@@ -241,57 +241,28 @@ class Favicon_By_RealFaviconGenerator_Common {
 
     public function set_site_icon_url($url, $size) {
 
-        $doc = new DOMDocument();
-        $doc->loadHTML($html);
-        $xpath = new DOMXpath($doc);
+        if($size === 32) { // classic favicon (32x32)
 
+            $favicon_filename = 'favicon.ico';
+            $favicon_url = static::get_files_url() . $favicon_filename;
+            $url = $favicon_url;
 
-        if($size === 32) {
-            // classic favicon (32) (from shortcut icon <link> element)
+        } elseif($size === 180) { // standard apple touch icon (180x180)
 
-            $icon_elements = $xpath->query('//link[@rel="shortcut icon"]');
-            if($icon_elements->length > 0) {
-                $icon_element = $icon_elements->item(0);
-                $favicon_url  = $icon_element->getAttribute('href');
-                if(!empty($favicon_url)) $url = $favicon_url;
-            }
+            $icon_filename = 'apple-touch-icon.png';
+            $icon_url = static::get_files_url() . $icon_filename;
+            $url = $icon_url;
 
-        } else {
-            // other icon sizes
+        } else { // other icon sizes, if available
 
-            $icon_size_prefix = $size . 'x';
-
-            // smaller sized icons (currently 16;32;180) (from <link> elements)
-            $link_elements = $xpath->query('//link[starts-with(@sizes, "' . $icon_size_prefix . '")]');
-            if($link_elements->length > 0) {
-                $link_element = $link_elements->item(0);
-                $link_url     = $link_element->getAttribute('href');
-                if(!empty($link_url)) $url = $link_url;
-            }
-
-            // larger sized icons (currently 192;512) (from the manifest file)
-            $manifest_elements = $xpath->query('//link[@rel="manifest"]');
-            if($manifest_elements->length > 0) {
-                $manifest_element = $manifest_elements->item(0);
-
-                $manifest_url = $manifest_element->getAttribute('href');
-                $wp_basedir   = get_home_path();
-                $manifest_path    = $wp_basedir . DIRECTORY_SEPARATOR . $manifest_url;
-                $manifest_content = @file_get_contents($manifest_path);
-                if($manifest_content !== false) {
-                    $manifest       = json_decode($manifest_content, true);
-                    $manifest_icons = $manifest['icons'];
-
-                    foreach($manifest_icons as $manifest_icon) {
-                        $icon_sizes = $manifest_icon['sizes'];
-                        if (strncmp($icon_sizes, $icon_size_prefix, strlen($icon_size_prefix)) === 0) {
-                            // sizes attr value starts with matching prefix?
-                            $icon_src = $manifest_icon['src'];
-                            if(!empty($icon_src)) $url = $icon_src;
-                            break;
-                        }
-                    }
-                }
+            $icon_files_dir = static::get_files_dir();
+            $sizes_glob = $icon_files_dir . DIRECTORY_SEPARATOR . '*-' . absint($size) . 'x*';
+            $icon_file_paths = glob($sizes_glob);
+            if(!empty($icon_file_paths)) {
+                $icon_file_path = $icon_file_paths[0];
+                $icon_file_name = basename($icon_file_path);
+                $icon_file_url  = static::get_files_url() . $icon_file_name;
+                $url = $icon_file_url;
             }
 
         }
