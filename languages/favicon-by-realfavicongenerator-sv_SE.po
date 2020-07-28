@@ -1,0 +1,186 @@
+# Copyright (C) 2014-2016 Favicon by RealFaviconGenerator
+# This file is distributed under the same license as the Favicon by RealFaviconGenerator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Favicon by RealFaviconGenerator 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/favicon-by-"
+"realfavicongenerator\n"
+"POT-Creation-Date: 2014-10-22 20:10:01+00:00\n"
+"PO-Revision-Date: 2014-11-15 09:54+0100\n"
+"Last-Translator: Linus Wileryd <linus@cutup.se>\n"
+"Language-Team: Linus <linus@cutup.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:65
+#: admin/class-favicon-by-realfavicongenerator-admin.php:66
+#: admin/class-favicon-by-realfavicongenerator-admin.php:70
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:69
+msgid "Favicon Settings"
+msgstr "Favicon-inställningar"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:351
+msgid ""
+"<a href=\"%s\" target=\"_blank\">An update is available</a> on "
+"RealFaviconGenerator. You might want to <a href=\"%s\">generate your favicon "
+"again</a>."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">En uppdatering finns tillgänglig</a> hos "
+"RealFaviconGenerator. Du vill förmodligen <a href=\"%s\">generera din "
+"favicon på nytt</a>."
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:354
+msgid " | <a href=\"%s\">Hide this notice</a>"
+msgstr " | <a href=\"%s\">Dölj denna notis</a>"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:356
+msgid " | <a href=\"%s\">Do not warn me again in case of update</a>"
+msgstr " | <a href=\"%s\">Varna mig inte igen om ev. uppdateringar</a>"
+
+#: admin/views/appearance.php:11
+msgid "Favicon installation in progress. Please wait..."
+msgstr "Favicon installeras just nu. Var vänlig vänta..."
+
+#: admin/views/appearance.php:15
+msgid "Favicon installed!"
+msgstr "Favicon installerad!"
+
+#: admin/views/appearance.php:20 admin/views/appearance.php:31
+msgid "Current favicon"
+msgstr "Aktuell favicon"
+
+#: admin/views/appearance.php:21 admin/views/appearance.php:34
+msgid "The favicon is up and ready."
+msgstr "Favicon är uppladdad och redo."
+
+#: admin/views/appearance.php:25 admin/views/appearance.php:46
+msgid ""
+"<a %s>Check your favicon</a> with RealFaviconGenerator's favicon checker."
+msgstr ""
+"<a %s>Granska din favicon</a> med RealFaviconGenerators favicon-granskare."
+
+#: admin/views/appearance.php:27 admin/views/appearance.php:49
+msgid "This option works only if your site is accessible from the outside."
+msgstr "Detta tillval fungerar endast om din sajt är åtkomlig utifrån."
+
+#: admin/views/appearance.php:36
+msgid "No favicon has been configured yet."
+msgstr "Ingen favicon har konfigurerats ännu."
+
+#: admin/views/appearance.php:56
+msgid "Favicon generation"
+msgstr "Genererande av favicon"
+
+#: admin/views/appearance.php:58
+msgid "You can replace the existing favicon."
+msgstr "Du kan ersätta den favicon som existerar."
+
+#: admin/views/appearance.php:65
+msgid "Master picture URL"
+msgstr "Originalbildlänk"
+
+#: admin/views/appearance.php:69 admin/views/appearance.php:70
+msgid "Select from the Media Library"
+msgstr "Välj från Mediabiblioteket"
+
+#: admin/views/appearance.php:73
+msgid "Submit a square picture, at least 70x70 (recommended: 260x260 or more)"
+msgstr ""
+"Skicka in en kvadratisk bild, minst 70x70 (rekommenderat: 260x260 eller "
+"högre)"
+
+#: admin/views/appearance.php:75
+msgid ""
+"If the picture is on your hard drive, you can leave this field blank and "
+"upload the picture from RealFaviconGenerator."
+msgstr ""
+"Om bilden finns på din hårddisk kan du lämna fältet blankt och ladda upp "
+"bilden från RealFaviconGenerator."
+
+#: admin/views/appearance.php:83
+msgid "Favicon files in root directory"
+msgstr "Favicon-filer i rotmappen"
+
+#: admin/views/appearance.php:88
+msgid "The plugin always stores the favicon files in a dedicated directory."
+msgstr "Tillägget sparar alltid favicon-filerna i en dedikerad mapp."
+
+#: admin/views/appearance.php:90
+msgid ""
+"However, if this option is enabled, the plugin takes advantage of the "
+"permalink feature and the favicon files appear to be in the root directory"
+msgstr ""
+"Hursomhelst, om detta tillval är aktiverat använder tillägget sig av "
+"permalänk-funktionen och favicon-filerna ser ut att finnas i rotmappen"
+
+#: admin/views/appearance.php:91
+msgid "recommended"
+msgstr "rekommenderat"
+
+#: admin/views/appearance.php:100
+msgid "Generate favicon"
+msgstr "Generera favicon"
+
+#: admin/views/appearance.php:189
+msgid "An error occured"
+msgstr "Ett fel uppstod"
+
+#: admin/views/appearance.php:200
+msgid "An internal error occurred"
+msgstr "Ett internt fel uppstod"
+
+#: admin/views/settings.php:13
+msgid ""
+"Do you want to setup your favicon? Go to <a href=\"%s\">Appearance &gt; "
+"Favicon</a>"
+msgstr ""
+"Vill du ställa in din favicon? Gå till <a href=\"%s\">Utseende &gt; Favicon</"
+"a>"
+
+#: admin/views/settings.php:22
+msgid "Display update notifications"
+msgstr "Visa uppdateringsnotiser"
+
+#: admin/views/settings.php:27
+msgid ""
+"Get notifications when RealFaviconGenerator is updated. For example, when "
+"Apple releases a new version of iOS or a new platform is supported."
+msgstr ""
+"Få notifieringar när RealFaviconGenerator uppdateras t.ex. när Apple släpper "
+"en ny version av iOS eller att det införs stöd för en ny plattform."
+
+#: admin/views/settings.php:36
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#. Plugin Name of the plugin/theme
+msgid "Favicon by RealFaviconGenerator"
+msgstr "Favicon av RealFaviconGenerator"
+
+#. Plugin URI of the plugin/theme
+msgid "http://realfavicongenerator.net/extensions/wordpress"
+msgstr "http://realfavicongenerator.net/extensions/wordpress"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and install your favicon for all platforms: PC/Mac of course, but "
+"also iPhone/iPad, Android devices, Windows 8 tablets, etc."
+msgstr ""
+"Skapa och installera din favicon för alla plattformar: PC/Mac såklart, men "
+"också iPhone/iPad, Android-enheter, Windows 8-surfplattor etc."
+
+#. Author of the plugin/theme
+msgid "Philippe Bernard"
+msgstr "Philippe Bernard"
+
+#. Author URI of the plugin/theme
+msgid "http://realfavicongenerator.net/"
+msgstr "http://realfavicongenerator.net/"

@@ -1,0 +1,200 @@
+# Copyright (C) 2015 Favicon by RealFaviconGenerator
+# This file is distributed under the same license as the Favicon by RealFaviconGenerator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Favicon by RealFaviconGenerator 1.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/favicon-by-realfavicongenerator\n"
+"POT-Creation-Date: 2015-11-22 17:39+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-04-19 16:01+0200\n"
+"Language-Team: ChameleonJohn.com\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: Jordan Silaen <jordan.silaen@chameleonjohn.com>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: id_ID\n"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:77 admin/class-favicon-by-realfavicongenerator-admin.php:78 admin/class-favicon-by-realfavicongenerator-admin.php:82
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:81
+msgid "Favicon Settings"
+msgstr "Pengaturan Favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:182
+msgid "Nonce was not recognized. This case is supposed to happen only in case of XSS attack. If you feel like something is wrong, please <a href=\\\"mailto:contact@realfavicongenerator.net\\\">contact us</a>."
+msgstr "Nonce tidak diakui. Kasus ini seharusnya terjadi hanya dalam kasus serangan XSS. Jika Anda merasa seperti ada sesuatu yang salah, <a href=\\\"mailto:contact@realfavicongenerator.net\\\"> hubungi kami </a>."
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:190 public/class-favicon-by-realfavicongenerator-common.php:414
+msgid "Cannot create directory %s to store the favicon package"
+msgstr "Tidak bisa membuat direktori %s untuk menyimpan paket favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:442
+msgid "An update is available on RealFaviconGenerator:"
+msgstr "Pembaruan tersedia pada RealFaviconGenerator:"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:448
+msgid "You might want to <a href=\"%s\">generate your favicon again</a>"
+msgstr "Anda mungkin ingin <a href=\"%s\"> menghasilkan favicon Anda lagi </a>"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:454 admin/class-favicon-by-realfavicongenerator-admin.php:477
+msgid "Hide this notice"
+msgstr "Sembunyikan pemberitahuan ini"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:458 admin/class-favicon-by-realfavicongenerator-admin.php:481
+msgid "Do not warn me again in case of update"
+msgstr "Tidak memperingatkan saya lagi dalam kasus pembaruan"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:471
+msgid "Your favicon was updated automatically:"
+msgstr "favicon Anda telah diperbarui secara otomatis:"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:159
+msgid "Cannot create directory %s to store the favicon package content"
+msgstr "Tidak bisa membuat direktori %s untuk menyimpan konten paket favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:206
+msgid "Unknown reason"
+msgstr "Alasan yang tidak diketahui"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:212
+msgid "Error while unziping the favicon package %s to directory %s"
+msgstr "Kesalahan saat unziping paket favicon %s ke direktori %s"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:281
+msgid "Cannot download file at %s"
+msgstr "Tidak dapat men-download file pada %s"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:284
+msgid "Cannot store downloaded file locally"
+msgstr "tidak bisa menyimpan file yang didownload secara lokal"
+
+#: admin/views/appearance.php:11
+msgid "Favicon installation in progress. Please wait..."
+msgstr "instalasi favicon berlangsung. Mohon tunggu..."
+
+#: admin/views/appearance.php:16
+msgid "Favicon installed!"
+msgstr "Favicon diinstal!"
+
+#: admin/views/appearance.php:18
+msgid "Do you like the result? If so, would you like to <a %s>rate the plugin</a>?"
+msgstr "Apakah Anda suka hasilnya? Jika demikian, apakah Anda ingin <a %s> menilai plugin </a>?"
+
+#: admin/views/appearance.php:26 admin/views/appearance.php:37
+msgid "Current favicon"
+msgstr "favicon saat ini"
+
+#: admin/views/appearance.php:27 admin/views/appearance.php:40
+msgid "The favicon is up and ready."
+msgstr "favicon adalah dan siap."
+
+#: admin/views/appearance.php:31 admin/views/appearance.php:52
+msgid "<a %s>Check your favicon</a> with RealFaviconGenerator's favicon checker."
+msgstr "<a %s> Periksa favicon Anda </a> dengan RealFaviconGenerator ini favicon checker."
+
+#: admin/views/appearance.php:33 admin/views/appearance.php:55
+msgid "This option works only if your site is accessible from the outside."
+msgstr "Opsi ini hanya bekerja jika situs Anda dapat diakses dari luar."
+
+#: admin/views/appearance.php:42
+msgid "No favicon has been configured yet."
+msgstr "Tidak ada favicon telah dikonfigurasi belum."
+
+#: admin/views/appearance.php:62
+msgid "Favicon generation"
+msgstr "generasi favicon"
+
+#: admin/views/appearance.php:64
+msgid "You can replace the existing favicon."
+msgstr "Anda dapat mengganti favicon yang ada."
+
+#: admin/views/appearance.php:71
+msgid "Master picture URL"
+msgstr "URL gambar Guru"
+
+#: admin/views/appearance.php:75 admin/views/appearance.php:76
+msgid "Select from the Media Library"
+msgstr "Pilih dari Perpustakaan Media"
+
+#: admin/views/appearance.php:79
+msgid "Submit a square picture, at least 70x70 (recommended: 260x260 or more)"
+msgstr "Mengirimkan gambar persegi, setidaknya 70x70 (disarankan: 260x260 atau lebih)"
+
+#: admin/views/appearance.php:81
+msgid "If the picture is on your hard drive, you can leave this field blank and upload the picture from RealFaviconGenerator."
+msgstr "Jika gambar pada hard drive Anda, Anda dapat meninggalkan bidang ini kosong dan meng-upload gambar dari RealFaviconGenerator."
+
+#: admin/views/appearance.php:89
+msgid "Favicon files in root directory"
+msgstr "file favicon di direktori root"
+
+#: admin/views/appearance.php:94
+msgid "The plugin always stores the favicon files in a dedicated directory."
+msgstr "Plugin selalu menyimpan file favicon di direktori khusus."
+
+#: admin/views/appearance.php:96
+msgid "However, if this option is enabled, the plugin takes advantage of the permalink feature and the favicon files appear to be in the root directory"
+msgstr "Namun, jika opsi ini diaktifkan, plugin mengambil keuntungan dari fitur permalink dan file favicon tampak di direktori root"
+
+#: admin/views/appearance.php:97
+msgid "recommended"
+msgstr "direkomendasikan"
+
+#: admin/views/appearance.php:106 admin/views/appearance.php:220
+msgid "Generate favicon"
+msgstr "menghasilkan favicon"
+
+#: admin/views/appearance.php:200
+msgid "Preparing master picture..."
+msgstr "Mempersiapkan gambar Master ..."
+
+#: admin/views/appearance.php:257
+msgid "An error occured"
+msgstr "Kesalahan terjadi"
+
+#: admin/views/appearance.php:268
+msgid "An internal error occurred"
+msgstr "Terjadi kesalahan internal"
+
+#: admin/views/settings.php:13
+msgid "Do you want to setup your favicon? Go to <a href=\"%s\">Appearance &gt; Favicon</a>"
+msgstr "Apakah Anda ingin setup favicon Anda? Pergi ke <a href=\" %s \"> Penampilan & gt; favicon </a>"
+
+#: admin/views/settings.php:22
+msgid "Display update notifications"
+msgstr "pemberitahuan update tampilan"
+
+#: admin/views/settings.php:27
+msgid "Get notifications when RealFaviconGenerator is updated. For example, when Apple releases a new version of iOS or a new platform is supported."
+msgstr "Dapatkan pemberitahuan bila RealFaviconGenerator diperbarui. Sebagai contoh, ketika Apple merilis versi baru dari iOS atau platform baru didukung."
+
+#: admin/views/settings.php:36
+msgid "Save changes"
+msgstr "Simpan perubahan"
+
+#: public/class-favicon-by-realfavicongenerator-common.php:181
+msgid "Visit the <a href=\"%s\">RFG's change log</a> to view the content of the update"
+msgstr "Kunjungi <a href=\" %s \"> perubahan log RFG </a> untuk melihat isi update"
+
+#. Plugin Name of the plugin/theme
+msgid "Favicon by RealFaviconGenerator"
+msgstr "Favicon oleh RealFaviconGenerator"
+
+#. Plugin URI of the plugin/theme
+msgid "http://realfavicongenerator.net/extensions/wordpress"
+msgstr "http://realfavicongenerator.net/extensions/wordpress"
+
+#. Description of the plugin/theme
+msgid "Create and install your favicon for all platforms: PC/Mac of course, but also iPhone/iPad, Android devices, Windows 8 tablets, etc."
+msgstr "Membuat dan memasang favicon Anda untuk semua platform: PC / Mac tentu saja, tetapi juga iPhone / iPad, perangkat Android, Windows 8 tablet, dll"
+
+#. Author of the plugin/theme
+msgid "Philippe Bernard"
+msgstr "Philippe Bernard"
+
+#. Author URI of the plugin/theme
+msgid "http://realfavicongenerator.net/"
+msgstr "http://realfavicongenerator.net/"

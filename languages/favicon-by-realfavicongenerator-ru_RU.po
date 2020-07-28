@@ -1,0 +1,242 @@
+# Translation of Development (trunk) in Russian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-17 16:05+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:77
+#: admin/class-favicon-by-realfavicongenerator-admin.php:78
+#: admin/class-favicon-by-realfavicongenerator-admin.php:82
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:81
+msgid "Favicon Settings"
+msgstr "Настройки Favicon"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:174
+msgid ""
+"Nonce was not recognized. This case is supposed to happen only in case of "
+"XSS attack. If you feel like something is wrong, please <a href=\\\"mailto:"
+"contact@realfavicongenerator.net\\\">contact us</a>."
+msgstr ""
+"Специальное слово не распознается. Такое происхоит только в случае атак "
+"XSS. Если Вам кажется, что что-то не так, пожалуйста, <a href=\"\\\"mailto:"
+"contact@realfavicongenerator.net\\\"\">свяжитесь с нами</a>."
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:182
+#: public/class-favicon-by-realfavicongenerator-common.php:415
+msgid "Cannot create directory %s to store the favicon package"
+msgstr "Не удается создать каталог %s для хранения пакета значков"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:434
+msgid "An update is available on RealFaviconGenerator:"
+msgstr "Обновление доступно на RealFaviconGenerator:"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:440
+msgid "You might want to <a href=\"%s\">generate your favicon again</a>"
+msgstr "Может потребоваться <a href=\"%s\">создать свой значок снова</a>"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:446
+#: admin/class-favicon-by-realfavicongenerator-admin.php:469
+msgid "Hide this notice"
+msgstr "Скрыть это уведомление"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:450
+#: admin/class-favicon-by-realfavicongenerator-admin.php:473
+msgid "Do not warn me again in case of update"
+msgstr "Не предупреждать в случае обновления"
+
+#: admin/class-favicon-by-realfavicongenerator-admin.php:463
+msgid "Your favicon was updated automatically:"
+msgstr "Ваш значок был обновлен автоматически:"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:159
+msgid "Cannot create directory %s to store the favicon package content"
+msgstr "Не удается создать каталог %s для хранения содержимого пакета значков"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:206
+msgid "Unknown reason"
+msgstr "Неизвестная причина"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:212
+msgid "Error while unziping the favicon package %s to directory %s"
+msgstr "Ошибка при распаковке favicon пакета в директорию % S"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:281
+msgid "Cannot download file at %s"
+msgstr "Не удается загрузить файл на %s"
+
+#: admin/class-favicon-by-realfavicongenerator-api-response.php:284
+msgid "Cannot store downloaded file locally"
+msgstr "Не удается сохранить загруженный файл локально"
+
+#: admin/views/appearance.php:11
+msgid "Favicon installation in progress. Please wait..."
+msgstr "Идет установка Favicon. Пожалуйста, подождите..."
+
+#: admin/views/appearance.php:16
+msgid "Favicon installed!"
+msgstr "Favicon установлен!"
+
+#: admin/views/appearance.php:18
+msgid ""
+"Do you like the result? If so, would you like to <a %s>rate the plugin</a>?"
+msgstr ""
+"Вам нравится реультат? Если да, то вам хотелось бы <a %s> оценить плагин </"
+"a>?"
+
+#: admin/views/appearance.php:26 admin/views/appearance.php:37
+msgid "Current favicon"
+msgstr "Текущий значок"
+
+#: admin/views/appearance.php:27 admin/views/appearance.php:40
+msgid "The favicon is up and ready."
+msgstr "Favicon установлен и готов к работе."
+
+#: admin/views/appearance.php:31 admin/views/appearance.php:52
+msgid ""
+"<a %s>Check your favicon</a> with RealFaviconGenerator's favicon checker."
+msgstr "<a %s> Проверьте favicon</a> через RealFaviconGenerator favicon."
+
+#: admin/views/appearance.php:33 admin/views/appearance.php:55
+msgid "This option works only if your site is accessible from the outside."
+msgstr "Эта опция работает только для сайтов, которые доступны извне."
+
+#: admin/views/appearance.php:42
+msgid "No favicon has been configured yet."
+msgstr "Ни один значок пока не настроен."
+
+#: admin/views/appearance.php:62
+msgid "Favicon generation"
+msgstr "Favicon генерация "
+
+#: admin/views/appearance.php:64
+msgid "You can replace the existing favicon."
+msgstr "Вы можете заменить существующий фавикон."
+
+#: admin/views/appearance.php:71
+msgid "Master picture URL"
+msgstr "URL главного изображения"
+
+#: admin/views/appearance.php:75 admin/views/appearance.php:76
+msgid "Select from the Media Library"
+msgstr "Выберите из библиотеки мультимедиа"
+
+#: admin/views/appearance.php:79
+msgid "Submit a square picture, at least 70x70 (recommended: 260x260 or more)"
+msgstr ""
+"Добавьте квадратную картину размером не менее 70 х 70 (рекомендованный "
+"размер: 260x260 или более)"
+
+#: admin/views/appearance.php:81
+msgid ""
+"If the picture is on your hard drive, you can leave this field blank and "
+"upload the picture from RealFaviconGenerator."
+msgstr ""
+"Если изображение находится на вашем жестком диске, вы можете оставить это "
+"поле пустым и загрузить изображение из RealFaviconGenerator."
+
+#: admin/views/appearance.php:89
+msgid "Favicon files in root directory"
+msgstr "Favicon файлы в корневой директории"
+
+#: admin/views/appearance.php:94
+msgid "The plugin always stores the favicon files in a dedicated directory."
+msgstr "Плагин всегда сохраняет favicon файлы в отдельную директорию."
+
+#: admin/views/appearance.php:96
+msgid ""
+"However, if this option is enabled, the plugin takes advantage of the "
+"permalink feature and the favicon files appear to be in the root directory"
+msgstr ""
+"Однако, если эта опция включена, плагин использует преимущества функции "
+"постоянной ссылки и фавикон файлы появятся в корневом каталоге"
+
+#: admin/views/appearance.php:97
+msgid "recommended"
+msgstr "рекомендуется"
+
+#: admin/views/appearance.php:106 admin/views/appearance.php:220
+msgid "Generate favicon"
+msgstr "Генерировать favicon"
+
+#: admin/views/appearance.php:200
+msgid "Preparing master picture..."
+msgstr "Подготовка главного изображения ..."
+
+#: admin/views/appearance.php:257
+msgid "An error occured"
+msgstr "Произошла ошибка"
+
+#: admin/views/appearance.php:268
+msgid "An internal error occurred"
+msgstr "Произошла внутренняя ошибка"
+
+#: admin/views/settings.php:13
+msgid ""
+"Do you want to setup your favicon? Go to <a href=\"%s\">Appearance &gt; "
+"Favicon</a>"
+msgstr ""
+"Вы хотите настроить свой favicon? Перейти к <a href=\"%s\"> Appearance &gt; "
+"Favicon </a>"
+
+#: admin/views/settings.php:22
+msgid "Display update notifications"
+msgstr "Отображать уведомления об обновлениях"
+
+#: admin/views/settings.php:27
+msgid ""
+"Get notifications when RealFaviconGenerator is updated. For example, when "
+"Apple releases a new version of iOS or a new platform is supported."
+msgstr ""
+"Получать уведомления, когда RealFaviconGenerator обновляется. Например, "
+"когда компания Apple выпускает новую версию iOS  или поддержку новой "
+"платформы."
+
+#: admin/views/settings.php:36
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: public/class-favicon-by-realfavicongenerator-common.php:181
+msgid ""
+"Visit the <a href=\"%s\">RFG's change log</a> to view the content of the "
+"update"
+msgstr ""
+"Посетите <a href=\"%s\">журнал изменений RFG</a> чтобы просмотреть "
+"содержимое обновления"
+
+#. Plugin Name of the plugin/theme
+msgid "Favicon by RealFaviconGenerator"
+msgstr "Favicon от RealFaviconGenerator"
+
+#. Plugin URI of the plugin/theme
+msgid "http://realfavicongenerator.net/extensions/wordpress"
+msgstr "http://realfavicongenerator.net/extensions/wordpress"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and install your favicon for all platforms: PC/Mac of course, but "
+"also iPhone/iPad, Android devices, Windows 8 tablets, etc."
+msgstr ""
+"Создайте и установите фавикон на всех платформах: конечно, PC / Mac, но так "
+"же и на iPhone / Ipad, Android устройствах, Windows 8 планшетах и т.д."
+
+#. Author of the plugin/theme
+msgid "Philippe Bernard"
+msgstr "Филиппе Бернар"
+
+#. Author URI of the plugin/theme
+msgid "http://realfavicongenerator.net/"
+msgstr "http://realfavicongenerator.net/"
