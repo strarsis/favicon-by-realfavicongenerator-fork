@@ -12,7 +12,7 @@
  * Plugin Name:       Favicon by RealFaviconGenerator
  * Plugin URI:        http://realfavicongenerator.net/extensions/wordpress
  * Description:       Create and install your favicon for all platforms: PC/Mac of course, but also iPhone/iPad, Android devices, Windows 8 tablets, etc.
- * Version:           1.3.19
+ * Version:           1.3.29
  * Author:            Philippe Bernard
  * Author URI:        http://realfavicongenerator.net/
  * License:           GPLv2
